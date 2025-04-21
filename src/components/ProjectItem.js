@@ -7,7 +7,7 @@ function ProjectItem({ name, about, technologies }) {
       <p>{about}</p>
       <div className="technologies">
        {technologies.map((tech, index) => (
-          <span key={index} style={{ marginRight: '5px' }}>
+          <span key={index} className="technology">
             {tech}
           </span>
         ))}
